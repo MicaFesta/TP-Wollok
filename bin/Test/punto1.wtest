@@ -1,0 +1,19 @@
+describe "Tests del Punto 1"{ 
+	
+	var rolando
+	var espectroMalo
+	
+	fixture{		
+		rolando = new Personaje("Rolando",espectroMalefico,[espectroMalefico])
+		espectroMalo = new EspectroMalefico("Espectro Malefico")
+		)
+
+	}
+
+	//Entrega 1
+
+	test "El nivel de hechiceria de Rolando debe ser 56" {
+	assert.equals(56, rolando.)
+	}
+
+}
